@@ -24,12 +24,32 @@ main{
     
 }
 
-strong{
-    width: 900px;
-    height: 900px;
+.caixa1{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 2px black;
+   display: inline-block;
 }
 
-.a, .b{
-    background-color: brown;
-     
+.caixa2{
+
+    background-color: rgb(42, 75, 165);
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 2px black;
+    display: inline-block;
+    
+
 }
+
+div{
+    margin: auto;
+}
+
+div:hover{
+    background-color: black;
+    animation: 2s ;
+}
+
+
