@@ -1,2 +1,35 @@
 @charset "utf-8";
 
+header{
+    background-color: black;
+    border-radius: 15px ;
+    width: 800px;
+    margin: auto;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+main{ 
+    background-color: aquamarine;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+
+strong{
+    width: 900px;
+    height: 900px;
+}
+
+.a, .b{
+    background-color: brown;
+     
+}
