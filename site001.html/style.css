@@ -2,15 +2,52 @@
 
 body{
     background-color: white;
+    max-width: 800px;
+    min-width: 700px;
 
 }
 
-head
+.nav1{
+    padding: 15px;
+}
+
+.nav2{
+        background-color: rgba(128, 128, 128, 0.356);
+        padding: 15px  ;
+        
+}
+
+a{
+    color: black;
+    
+}
 
 main{
     height: 100vh;
     background-image: url(imagem/imagemsite.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size:cover;
-    background-attachment:fixed;
-}
+    padding: 15px;
+        
+    }
+
+    div{
+        background-color: white;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        padding: 5px;
+        display: inline-block;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+        color:
+             
+        
+    }
+
+    div.countainer1 > h2 {
+        color:rgb(68, 68, 250) ;
+    }
+    div.countainer2 > h2 {
+        color:rgb(68, 250, 123) ;
+    }
