@@ -5,6 +5,7 @@ header{
     border-radius: 15px ;
     max-width: 800px;
     min-width: 200px;
+    
     margin: auto;
 
 }
@@ -23,50 +24,48 @@ h2 , p{
 
 main{ 
     background-color: aquamarine;
-    width: 600px;
-    height: 600px;
-    margin: auto;
+    width: 96vh;
+    height: 96vh;
     border-radius: 50%;
+    margin: auto;
+  
+    
+   
     
 }
 
-fazer anotações
+div{
+    margin: auto;
+    width: 20vh;
+    height: 20vh;
+    box-shadow: 2px 2px 2px black;
+    display: inline-block;
+       text-align: center;
+    
+}
 
 .caixa1{
     background-color: brown;
-    width: 200px;
-    height: 200px;
-    box-shadow: 2px 2px 2px black;
-   display: inline-block;
+        
 }
 
 .caixa2{
 
     background-color: rgb(42, 75, 165);
-    width: 200px;
-    height: 200px;
-    box-shadow: 2px 2px 2px black;
-    display: inline-block;
-    
+      
 
 }
 
 .caixa3{
 
     background-color: rgb(65, 201, 24);
-    width: 200px;
-    height: 200px;
-    box-shadow: 2px 2px 2px rgb(209, 41, 41);
-    display: inline-block;
+    
 }
 
-div{
-    margin: auto;
-}
 
 div:hover{
     background-color: black;
-    animation: 2s ;
+    
 }
 
 
